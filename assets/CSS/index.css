@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.logoImg {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    height: 110px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.hot {
+    position: relative;
+
+
+}
+
+.drop {
+    display: none;
+    position: absolute;
+
+}
+
+.drop li {
+    background-color: #f5dfdf;
+    display: block;
+    justify-content: start;
+    align-items: center;
+    padding: 19px;
+}
+
+.hot:hover .drop {
+    display: block;
+    flex-direction: column;
+    width: 145px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    color: rgb(238, 0, 0);
+    transition: 0.4s;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    width: 25%;
+    height: 110px;
+}
+
+.fa-magnifying-glass:hover {
+    color: rgb(238, 0, 0);
+    transition: 0.2s;
+}
+
+.fa-user:hover {
+    color: rgb(238, 0, 0);
+    transition: 0.2s;
+}
+
+.fa-cart-shopping:hover {
+    color: rgb(238, 0, 0);
+    transition: 0.2s;
+}
+
+#bolme2 {
+    min-height: 100vh;
+    background-color: #F0F0F2;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.aciqlama2 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 40%;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.aciqlama2 h1 {
+    font-size: 100px;
+    color: #0B1C39;
+    font-weight: bold;
+
+}
+
+.aciqlama2 p {
+
+    font-size: 20px;
+}
+
+.aciqlama2 button {
+    background-color: #4A4A4B;
+    padding: 18px;
+    width: 20%;
+    font-weight: bold;
+    color: white;
+}
+
+.shop {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.shop:hover {
+    background-color: orangered;
+    transform-origin: 100px;
+}
+.sekil1:hover{
+    transform: scale(1.1);
+}
+#bolme3 {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  #bolme3 .basliq2 {
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    padding-bottom: 80px;
+  }
+  #bolme3 .sekil3 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #bolme3 div {
+    text-align: center;
+  }
+  #bolme3 div h3 {
+    color: #4A4A4B;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  #bolme3 div span {
+    color: #FF003C;
+    font-size: larger;
+    padding-top: 25px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.cointainerr {
+    display: flex;
+    flex-wrap: wrap; 
+    display: flex;
+    justify-content: center;
+}
+
+.cointainerr > div {
+    flex: 1; 
+    margin: auto;
+}
+
+.cointainerr img {
+    max-width: 100%;
+    height: auto;
+}
+.cointainerr {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(630px, 1fr));
+    grid-gap: 1px;
+}
+
+.cointainerr img {
+    max-width: 100%;
+    height: auto; 
+}
+.bir{
+height: 700px;
+width: 100%;
+display: flex;
+justify-content: center;
+background-color: #FF003C;
+}
+.bir:hover{
+    transform: scale(0.9); /* Resimlerin boyutunu küçültme */
+    filter: grayscale(100%); 
+}
+
+.iki:hover{
+    transform: scale(0.9); /* Resimlerin boyutunu küçültme */
+    filter: grayscale(100%); 
+}
+
+.ucc:hover{
+    transform: scale(0.9); /* Resimlerin boyutunu küçültme */
+    filter: grayscale(100%); 
+}
+
+.dort:hover{
+    transform: scale(0.9); /* Resimlerin boyutunu küçültme */
+    filter: grayscale(100%); 
+}
+
